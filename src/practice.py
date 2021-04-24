@@ -97,3 +97,9 @@ else:
   print('그냥 주세요')
 print('end')
 
+print('-----')
+
+set_dinner = set(['피자', '치킨', '된장찌개', '짜장면'])
+food = '짜장면'
+set_dinner = set_dinner - set([food])
+print(set_dinner)
