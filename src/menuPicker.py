@@ -18,7 +18,7 @@ set_dinner = set(dinner)  # 집합 형태로 변경
 
 while True:
   print(set_dinner)
-  item = input('음식을 삭제해주세요: ')
+  item = input('삭제하실 메뉴를 입력해주세요: ')
 
   if(item == 'q'):
     break

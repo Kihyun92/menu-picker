@@ -103,3 +103,8 @@ set_dinner = set(['피자', '치킨', '된장찌개', '짜장면'])
 food = '짜장면'
 set_dinner = set_dinner - set([food])
 print(set_dinner)
+
+print('-----')
+# 함수
+def 함수이름():
+  # 내용
